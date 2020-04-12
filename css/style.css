@@ -1,0 +1,399 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/*******************************
+********header section**********
+********************************/
+.header-section{
+	width: 100%;
+	background: url(../images/bg1.png) center top no-repeat;
+	background-size: cover;
+}
+.header-section .navbar{
+	padding-top: 20px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    background: #fed136;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+    
+}
+.header-section .banner{
+	width: 100%;
+	padding: 210px 0px;
+	
+}
+.header-section .banner h2{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+.header-section .banner h1{
+	color: #fff;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+
+.header-section .banner .btn-info{
+	text-transform: uppercase;
+	padding: 15px 40px;
+	border-radius: 5px;
+	border: 1px solid #fed136;
+	color: #fff;
+	background:  #fed136;
+	font-weight: 600;
+}
+.header-section .banner .btn-info:hover{
+	background:transparent;
+	transition:0.5s;
+}
+
+/*******************************
+********service section**********
+********************************/
+
+.service{
+	width: 100%;
+	padding: 80px 0px;
+}
+.service .service-header{
+	width: 100%;
+	padding-bottom: 40px;
+}
+.service .service-header h1{
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 52px;
+
+}
+.service .service-header p{
+	font-family: 'Raleway', sans-serif;
+
+}
+.service .service-inner{
+	width: 100%;
+}
+.service .service-inner img{
+	padding-bottom: 20px;
+}
+.service .service-inner h5{
+	font-weight: 700;
+}
+.service .service-inner p{
+	
+}
+
+/*******************************
+*******portfolio section*********
+********************************/
+
+.portfolio{
+	width: 100%;
+	padding: 70px 0px;
+	background: #f7f7f7;
+}
+.portfolio .port-header{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.portfolio .port-header h1{
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 52px;
+}
+.portfolio .port-header p{
+	font-family: 'Raleway', sans-serif;
+}
+.card{
+	margin-bottom: 30px;
+}
+
+.portfolio .card-title {
+    /* margin-bottom: .75rem; */
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.portfolio .card-text{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+/*******************************
+*******about us section*********
+********************************/
+
+.about{
+	width: 100%;
+	padding: 70px 0px;
+}
+.about .about-header{
+	width: 100%;
+	padding-bottom: 40px;
+}
+.about .about-header h1{
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 52px;
+}
+.about .about-header p{
+	font-family: 'Raleway', sans-serif;
+}
+
+.about .media {
+    margin-bottom: 70px;
+    margin-right: -11px;
+    margin-left: -11px;
+}
+.about .media-body{
+	padding-top: 12px;
+}
+.about .media-body h5{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+
+
+.about .picture.text-right {
+    text-align: right!important;
+    margin-right: -10px;
+}
+
+
+/*******************************
+*******our team section*********
+********************************/
+.team{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f9f9f9;
+}
+.team .team-header h1{
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 52px;
+}
+.team .team-header p{
+	font-family: 'Raleway', sans-serif;
+}
+.team .team-inner{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.team .team-inner h6{
+	font-weight: 700;
+
+}
+.team .team-inner p{
+	font-weight: 200;
+	
+}
+.team .team-inner a i{
+	color: black;
+	line-height: 45px;
+	font-size: 22px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 50%;
+	
+	
+}
+.team .team-inner li{
+	margin: 0px 5px;
+}
+.team .team-inner a i:hover{
+	background: yellow;
+	transition: 0.5s;
+}
+.team .paragraph{
+	color: #a2a2a2;
+}
+
+/*******************************
+***********logos section********
+********************************/
+.logos{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+/*******************************
+**********contact section*******
+********************************/
+
+.contact{
+	width: 100%;
+	background: url(../images/bg2.png) center top no-repeat;
+	background-size: cover;
+	padding: 100px 0px;
+}
+.contact .contact-header h1{
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 52px;
+	color: #fff;
+}
+.contact .contact-header p{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+.contact .fr{
+	margin-top: 40px;
+}
+.contact .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 26px 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #bbbbbb;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.contact .form-group {
+    margin-bottom: 29px;
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+    padding: 16px 12px;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 5px;
+    color: #bbbbbb;
+    font-weight: 700;
+}
+.contact .btn-info{
+	background: #fed136;
+	padding: 15px 40px;
+	color: #fff;
+	font-weight: 600;
+	border: 1px solid #fed136;
+}
+
+/*******************************
+**********footer section*******
+********************************/
+
+.footer{
+	width: 100%;
+	padding: 25px 0px;
+}
+.footer p{
+	color:  #bbbbbb;
+	padding-top: 10px;
+}
+
+.footer a i{
+	color: #fff;
+	background: black;
+	line-height: 45px;
+	font-size: 22px;
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 50%;
+
+	
+	
+}
+.footer li{
+	margin: 0px 10px;
+}
+.footer a i:hover{
+	background: transparent;
+	color: black;
+	transition: 0.5s;
+}
+
+
+@media (min-width: 1025px) and (max-width: 1250px){
+  
+  button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+  
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  
+  button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+
+} 
